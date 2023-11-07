@@ -1,0 +1,233 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cap {
+    width: 768px;
+    height: 100px;
+    background-color:#E1EDE6;
+}
+.logo {
+    font-size: 20px;
+    color: #598D66;
+    
+}
+.cap button{
+    border: 0px;
+    background-color: rgba(240, 248, 255, 0);
+    height: 21px;
+}
+.bird {
+    display: flex;
+    width: 768px;
+    height: 380px;
+    top: 100px;
+}
+.block1 {
+    width: 330px;
+    height: 308px;
+    top: 35px;
+    left: 399px;
+}
+.hi {
+    font-size: 40px;
+}
+.logo2 {
+    color: #598D66;
+}
+.text1 {
+    color: #598D66;
+    font-size: 18px;
+    
+}
+.products {
+    width: 210px;
+    height: 60px;
+    border: 1px solid #598D66;
+    top: 248px;
+    padding: 20px 60px;
+    font-size: 20px;
+    color: #598D66;
+    background-color: white;
+}
+.rep {
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.rep-text {
+ font-weight: 500;
+ font-size: 30px;
+ line-height: 33px;
+}
+
+.rep button {
+    border: 0;
+    border-radius: 20px;
+    background: #D4E8D9;
+    width: 135px;
+    height: 43px;
+    padding: 10px 20px;
+}
+.rep button:hover {
+    background: #376B44;
+    color: white;
+}
+.block {
+    display: flex;
+}
+.paint {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 730px;
+    background: #E1EDE6;
+    gap: 12px;
+    padding: 20px;
+    border: 10px solid white;
+}
+.author {
+    color: #86928B;
+    font-size: 18px;
+    font-weight: 500px;
+    line-height: 21px;
+    width: 132px;
+    height: 21px;
+    
+}
+.name {
+    color: #2C2D35;
+    font-size: 30px;
+    font-weight: 500px;
+    line-height: 35px;
+    width: 310px;
+    height: 35px;
+    
+}
+.canvas {
+    color: #2C2D35;
+    font-size: 18px;
+    font-weight: 500px;
+    line-height: 21px;
+    width: 290px;
+    height: 21px;
+
+}
+.prise {
+    color: #598D66;
+    font-size: 24px;
+    font-weight: 500px;
+    line-height: 28px;
+    
+}
+.buy {
+    border: 1px solid #598D66;
+    background: #598d6600;
+    width: 290px;
+    height: 65px;
+    padding: 20px 60px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    color: #598D66;
+}
+.promo-block {
+    display: flex;
+    flex-direction: column;
+    width: 766px;
+    height: 502px;
+    background-image: url(https://news.library.mcgill.ca/wp-content/uploads/2018/12/rbsc_book-of-hours_ms102_Page_1-640x480.jpg);
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    gap: 20px;
+    box-shadow: 1px 1px 81px 100px rgba(0, 0, 0, 0.34) inset;
+}
+.star2 {
+    display: flex;
+    align-items: center;
+    width: 450px;
+    height: 60px;
+    gap: 20px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+    color: white;
+    margin-top: 70px;
+    margin-left: 39px;
+}
+.promo-text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: white;
+    margin-top: 15px;
+    margin-left: 39px;
+}
+.promo-btn {
+    background: #EEDB6D;
+    width: 210px;
+    height: 60px;
+    border: 0;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    margin-top: 20px;
+    margin-left: 39px;
+}
+.frame-block {
+    width: 510px;
+    height: 504px;
+    margin-top: 100px;
+    position: relative;
+}
+
+.frame {
+    margin-top: 89px;
+ }
+ .hand {
+    position: absolute;
+    left: 55px;
+ }
+ .team-block {
+    display: inline;
+    width: 690px;
+    height: 171px;
+    margin-top: 70px;
+ }
+ .team {
+    font-size: 30px;
+    line-height: 33px;
+ }
+.team-text {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    width: 690px;
+    height: 108px;
+}
+.and-block {
+    background: #E1EDE6;
+    width: 768px;
+    height: 250px;
+    margin-top: 50px;
+}
+table {
+    width: 445px;
+    height: 122px;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+thead th {
+    text-align: left;
+}
+tbody {
+    color: #86928B;
+}
