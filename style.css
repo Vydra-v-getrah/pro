@@ -9,7 +9,10 @@ body {
     width: 768px;
     height: 100px;
     background-color:#E1EDE6;
+    display: flex;
+    align-items: center;
 }
+
 .logo {
     font-size: 20px;
     color: #598D66;
@@ -52,6 +55,7 @@ body {
     font-size: 20px;
     color: #598D66;
     background-color: white;
+    margin-top: 30px;
 }
 .rep {
     display: flex;
@@ -87,7 +91,7 @@ body {
     width: 330px;
     height: 730px;
     background: #E1EDE6;
-    gap: 12px;
+    gap: 17px;
     padding: 20px;
     border: 10px solid white;
 }
@@ -96,9 +100,6 @@ body {
     font-size: 18px;
     font-weight: 500px;
     line-height: 21px;
-    width: 132px;
-    height: 21px;
-    
 }
 .name {
     color: #2C2D35;
@@ -135,6 +136,7 @@ body {
     font-weight: 500;
     line-height: 23px;
     color: #598D66;
+    align-self: center;
 }
 .promo-block {
     display: flex;
@@ -213,17 +215,28 @@ body {
     width: 690px;
     height: 108px;
 }
+.foto-team {
+    padding: 0px 15px;
+}
 .and-block {
     background: #E1EDE6;
     width: 768px;
     height: 250px;
-    margin-top: 50px;
+    margin-top: 30px;
+    
+}
+.and-div{
+    padding: 20px 0 0 10px;
+    display: flex;
+    gap: 350px;
+    font-size: 20px;
+}
+.mast{
+    color: #86928B;
 }
 table {
     width: 445px;
     height: 122px;
-    margin-top: 80px;
-    margin-left: 30px;
 }
 thead th {
     text-align: left;
